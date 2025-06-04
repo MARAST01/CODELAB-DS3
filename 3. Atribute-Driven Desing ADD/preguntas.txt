@@ -1,0 +1,58 @@
+- ¿Cuál es el propósito principal de la metodología ADD en el diseño de arquitecturas de software? 
+    - 
+    - El propósito principal de ADD es proporcionar un enfoque sistemático para la toma de decisiones arquitectónicas, asegurando que la arquitectura del software cumpla con los requisitos de calidad desde las primeras fases del desarrollo. Además, facilita la evolución controlada del diseño y documenta las decisiones de manera estructurada.
+
+- ¿Qué atributos de calidad se consideran en ADD y por qué son importantes en el proceso de diseño?
+    - 
+    - Los atributos de calidad considerados en ADD incluyen rendimiento, escalabilidad, seguridad, disponibilidad y mantenibilidad. Son importantes porque garantizan que la arquitectura no solo cumpla con los requisitos funcionales, sino que también sea eficiente, segura y sostenible a largo plazo.
+
+- Explica la importancia de la selección del módulo a diseñar en ADD. ¿Cuáles son los criterios principales para elegir un módulo?
+    - 
+    - La selección del módulo a diseñar es crucial porque impacta la arquitectura general y permite abordar los elementos más críticos primero. Los criterios principales para elegir un módulo incluyen:
+        - Dependencias: Se priorizan los módulos para evitar bloqueos.
+        - Riesgos arquitectónicos: Se diseñan primero los módulos más críticos.
+        - Prioridades del negocio: Debe alinearse con los objetivos del producto.
+        - Complejidad y viabilidad técnica: Se evalúa la factibilidad del diseño.
+
+- ¿Cómo influyen las tácticas arquitectónicas en la toma de decisiones dentro de ADD? Menciona dos ejemplos de tácticas y su aplicación.
+    - 
+    - Las tácticas arquitectónicas ayudan a abordar problemas específicos de calidad sin definir un diseño completo. Se eligen en función de los atributos de calidad requeridos.
+        - Ejemplo 1: Caché para mejorar rendimiento: Reduce el tiempo de respuesta almacenando datos en memoria.
+        - Ejemplo 2: Autenticación multifactorial para seguridad: Refuerza la seguridad en sistemas críticos.
+
+- ¿Cuál es la relación entre los escenarios de calidad y la evaluación de la arquitectura en ADD?
+    - 
+    - Los escenarios de calidad sirven para evaluar si la arquitectura cumple con los requisitos esperados. Un escenario está compuesto por elementos como fuente, estímulo, artefactos, entorno, respuesta y medida de respuesta. Estos permiten validar las decisiones tomadas y mejorar el diseño.
+- Describe los principales pasos del proceso ADD y cómo se interrelacionan.
+    - Identificación de atributos de calidad: Se definen los atributos clave como rendimiento y seguridad.
+    - Selección del módulo a diseñar: Se priorizan los módulos según dependencias y riesgos.
+    - Selección de tácticas arquitectónicas: Se eligen estrategias para mejorar calidad.
+    - Definición de la arquitectura: Se elaboran diagramas y se refinan detalles.
+    - Evaluación y documentación: Se validan los escenarios de calidad y se documentan las decisiones.
+        - 
+        - Todos estos pasos se interrelacionan en un proceso iterativo, asegurando que el diseño evolucione controladamente.
+
+- ¿Por qué es crucial documentar las decisiones arquitectónicas en ADD? Menciona al menos tres elementos que deben incluirse en la documentación.
+    - 
+    - La documentación es crucial para justificar las decisiones y facilitar la comprensión del diseño. Debe incluir:
+        - Diagramas de arquitectura.
+        - Decisiones arquitectónicas tomadas y su justificación.
+        - Escenarios de calidad evaluados.
+
+- En un proyecto real, ¿cómo se puede evaluar si una arquitectura diseñada con ADD cumple con los atributos de calidad esperados?
+    - 
+    - Se pueden utilizar diferentes métodos como:
+        - Análisis de escenarios de calidad: Se verifica si la arquitectura responde correctamente a los estímulos.
+        - Revisión técnica: Se identifican posibles problemas en el diseño.
+        - Pruebas de concepto y simulación: Se ejecutan modelos para predecir el comportamiento del sistema.
+
+- ¿Cuáles son los beneficios de utilizar ADD en comparación con otros enfoques de diseño arquitectónico?
+    - Facilita la toma de decisiones basada en calidad.
+    - Permite iteraciones controladas para mejorar la arquitectura.
+    - Reduce riesgos al anticipar problemas en fases tempranas del desarrollo.
+    - Asegura documentación clara y estructurada.
+
+- ¿Qué desafíos pueden surgir al aplicar ADD en un equipo de desarrollo y cómo podrían abordarse?
+    - Dificultad en la identificación de atributos de calidad: Se puede abordar realizando talleres con stakeholders.
+    - Complejidad en la selección de tácticas: Se recomienda usar experiencias previas y buenas prácticas.
+    - Resistencia del equipo a seguir un proceso estructurado: Es clave capacitar y demostrar los beneficios de ADD.
